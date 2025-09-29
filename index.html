@@ -1,115 +1,169 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">   <!-- para madisplay din nang maayos ung mga special characters tsaka ano ung ano, ung mga emojis ganun -->
-    <title>My personal site :>>> </title>
-</head>
-
-<body>
-    <table cellspacing="20">
-        <tr>
-            <td> <img src="images/Pic ko.jpg" alt="My Picture" style="border-radius: 50%; width: 200px; height: 200px;"> </td>
-            <td>  <h1>Trixian Wackyll C. Granado</h1>
-            <h3>Student | Aspiring IT Professional</h3>  </td>
-        </tr>
-        </tr>
-           
-    </table>
- 
+<meta charset="UTF-8"> <!-- para madisplay din nang maayos ung mga special characters tsaka ano ung ano, ung mga emojis ganun -->
+<title>My personal site :>>> </title>
+<style>
+    /* Internal CSS - CSS Selectors */
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f8ff;
+        margin: 20px;
+        line-height: 1.6;
+    }
     
+    /* Classes */
+    .main-container {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    
+    .section-box {
+        background-color: white;
+        padding: 20px;
+        margin-bottom: 20px;
+        border: 1px solid #4a86e8;
+    }
+    
+    /* IDs */
+    #profile-header {
+        background-color: #e1ecff;
+        padding: 15px;
+        border-radius: 8px;
+    }
+    
+    /* CSS Selectors */
+    h1 {
+        color: #2c5aa0;
+    }
+    
+    h2 {
+        color: #2c5aa0;
+        border-bottom: 2px solid #4a86e8;
+        padding-bottom: 5px;
+    }
+    
+    table {
+        width: 100%;
+    }
+    
+    table[border="1"] {
+        border-collapse: collapse;
+    }
+    
+    table[border="1"] th,
+    table[border="1"] td {
+        border: 1px solid #4a86e8;
+        padding: 8px;
+    }
+    
+    a {
+        background-color: #4a86e8;
+        color: white;
+        padding: 8px 15px;
+        text-decoration: none;
+        border-radius: 4px;
+    }
+</style>
+</head>
+<body>
+<div class="main-container">
+    <div id="profile-header">
+        <table cellspacing="20">
+        <tr>
+        <td> <img src="images/PICT0062.jpg" alt="My Picture"
+        style="border-radius: 50%; width: 200px; height: 200px; border: 3px solid #4a86e8;"> </td>
+        <td> <h1>Trixian Wackyll C. Granado</h1>
+        <h3>Student | Aspiring IT Professional</h3> </td>
+        </tr>
+        </table>
+    </div>
 
-
-    <!-- talambuhay into 4 letters  -->
-    <h2>Profile Summary</h2>
-    <p>
-        A motivated student passionate about <b>Information Technology</b>,  
-        aiming to develop efficient bookkeeping and IT solutions.  
+    <!-- talambuhay into 4 letters -->
+    <div class="section-box">
+        <h2>Profile Summary</h2>
+        <p>
+        A motivated student passionate about <b>Information Technology</b>,
+        aiming to develop efficient bookkeeping and IT solutions.
         Experienced in balancing studies, work, and volunteer service.
-    </p>
-    <hr>
-
+        </p>
+    </div>
+    
     <!-- pinag aralan ko -->
-    <h2>Education</h2>
-    <ul>
+    <div class="section-box">
+        <h2>Education</h2>
+        <ul>
         <li><b>New Era University</b> – BS Computer Studies & Information Technology (Ongoing)</li>
         <li>High School Graduate – with honors</li>
-    </ul>
-    <hr>
-
+        </ul>
+    </div>
+    
     <!-- exp level sa minecr -->
-    <h2>Experience</h2>
-  	<table border = "1">
-      <thead> <!-- table header -->
-        <tr>    
-          <th>Role</th> <!-- column to -->
-          <th>Date</th> <!-- column to -->
+    <div class="section-box">
+        <h2>Experience</h2>
+        <table border="1">
+        <thead> <!-- table header -->
+        <tr>
+        <th>Role</th> <!-- column to -->
+        <th>Date</th> <!-- column to -->
         </tr>
-       </thead> <!-- table header end -->
-       <tbody> <!-- body na to -->
-         <tr> <!-- row one :OOO -->
-           <td> Bookkeeper – Accounting Firm </td>
-           <td> (2024–Present) </td>
-         </tr>
-         <tr> <!-- row two :OOO-->
-           <td> Church Choir Member & Organist– Iglesia Ni Cristo </td>
-           <td> (2022–Present) </td>
-         </tr> 
-       <tbody> <!-- hanggang dito ung body -->
-  	<table>
-    <hr>
-
+        </thead> <!-- table header end -->
+        <tbody> <!-- body na to -->
+        <tr> <!-- row one :OOO -->
+        <td> Bookkeeper – Accounting Firm </td>
+        <td> (2024–Present) </td>
+        </tr>
+        <tr> <!-- row two :OOO-->
+        <td> Church Choir Member & Organist– Iglesia Ni Cristo </td>
+        <td> (2022–Present) </td>
+        </tr>
+        </tbody> <!-- hanggang dito ung body -->
+        </table>
+    </div>
+    
     <!-- kills -->
-     <table cellspacing="10">
-   <table>
-    <tr>
-        <td>   <table>
-    <tr>
-      <td>Programming</td>
-      <td>⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Editing</td>
-      <td>⭐⭐</td>
-    </tr>
-    
-   </table> </td>
-        <td>   <table>
-    <tr>
-      <td>Music</td>
-      <td>⭐⭐⭐⭐</td>
-    </tr>
-    <tr>
-      <td>Time Management</td>
-      <td>⭐⭐</td>
-    </tr>
-    
-   </table> </td>
-    </tr>
-   </table>
-  
-    <hr>
+    <div class="section-box">
+        <h2>Skills</h2>
+        <table cellspacing="10">
+        <table>
+        <tr>
+        <td> <table>
+        <tr>
+        <td>Programming</td>
+        <td>⭐⭐⭐</td>
+        </tr>
+        <tr>
+        <td>Editing</td>
+        <td>⭐⭐</td>
+        </tr>
+        </table> </td>
 
+        <td> <table>
+        <tr>
+        <td>Music</td>
+        <td>⭐⭐⭐⭐</td>
+        </tr>
+        <tr>
+        <td>Time Management</td>
+        <td>⭐⭐</td>
+        </tr>
+        </table> </td>
+        </tr>
+        </table>
+    </div>
+    
     <!-- gawain pag bored -->
-    <h2>Hobbies</h2>
-    <ol>
+    <div class="section-box">
+        <h2>Hobbies</h2>
+        <ol>
         <li>Playing Piano 🎹</li>
         <li>Gaming 🎮</li>
         <li>Reading Books 📚</li>
         <li>Exploring Tech 💻</li>
-    </ol>
-    <hr> 
-
-    <a href="Form.html" style="border:1px solid black; padding:5px 10px; text-decoration:none; color:black;">Contact Me</a>
-
+        </ol>
+    </div>
+    
+    <a href="Form ko.html">Contact Me</a>
+</div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
